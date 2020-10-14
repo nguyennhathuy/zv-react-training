@@ -1,24 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Task1 from './task1/task1';
+import Task2 from './task2/task2';
+import Task3 from './task3/task3';
 
-function App() {
+const App = _ => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <Task1 />
+      <hr />
+      <Task2 />
+      <hr />
+      <Task3 />
     </div>
   );
 }
